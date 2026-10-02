@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Bhavesh Yadav - First Year B.Tech CSE (AI & ML - IBM) Student at JECRC University." />
+  <title>Bhavesh Yadav | B.Tech CSE (AI & ML) - JECRC University</title>
+
+  <!-- Google Fonts (Poppins & Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS matching the Orange & Dark Template -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Angled Backdrop Geometric Overlays -->
+  <div class="angled-bg-left"></div>
+  <div class="angled-bg-right"></div>
+
+  <!-- Main Canvas Wrapper -->
+  <div class="canvas-wrapper">
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#home" class="logo">
+          <span class="logo-orange">BHAVESH</span><span class="logo-dot">.</span>
+        </a>
+
+        <!-- Desktop Menu Links -->
+        <nav class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About me</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact me</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-orange nav-btn">Contact Me</a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section (Matches the Template in media_1790909795178.jpg) -->
+      <section class="hero-section" id="home">
+        <div class="hero-container">
+          <!-- Left Column Content -->
+          <div class="hero-left">
+            <span class="hero-greeting">Hi I am</span>
+            <h1 class="hero-name">Bhavesh Yadav</h1>
+            <h2 class="hero-title">B.Tech CSE (AI & ML)</h2>
+            <p class="hero-institution">
+              <i class="fa-solid fa-graduation-cap"></i> First Year Student &bull; <strong>JECRC University</strong> (IBM Collaboration)
+            </p>
+
+            <!-- Social Icon Circles -->
+            <div class="hero-social-circles">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="circle-icon" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="circle-icon" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:bhavesh.yadav@example.com" class="circle-icon" title="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="circle-icon" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-orange">Contact Me</a>
+              <a href="#education" class="btn btn-outline">Academic Profile</a>
+            </div>
+
+            <!-- Stats Bar (Replacing 5+ Experiences / 20+ Projects with real user data) -->
+            <div class="hero-stats-card">
+              <div class="stat-item">
+                <span class="stat-number">87.33%</span>
+                <span class="stat-label">10th Marks</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number">74%</span>
+                <span class="stat-label">12th Marks</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number">1st Year</span>
+                <span class="stat-label">JECRC University</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column Circular Profile / Avatar Frame -->
+          <div class="hero-right">
+            <div class="avatar-backdrop-circle">
+              <div class="avatar-inner-glow"></div>
+              <div class="avatar-frame">
+                <!-- Actual picture of Bhavesh Yadav -->
+                <img src="profile_nobg.png" alt="Bhavesh Yadav" class="student-photo" onerror="this.src='profile.png'" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section class="content-section" id="about">
+        <div class="section-title-wrap">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-heading">Personal <span class="text-orange">Overview</span></h2>
+        </div>
+
+        <div class="about-card-box">
+          <div class="about-info-col">
+            <div class="about-header-flex">
+              <img src="profile_nobg.png" alt="Bhavesh Yadav" class="about-avatar-thumb" onerror="this.src='profile.png'" />
+              <div>
+                <h3 class="about-title">Bhavesh Yadav</h3>
+                <p class="about-role-tag">
+                  <span class="badge-tag">First Year B.Tech CSE (AI & ML)</span>
+                  <span class="badge-tag">JECRC University • IBM Collaboration</span>
+                </p>
+              </div>
+            </div>
+            <p class="about-text">
+              I am a first-year undergraduate student pursuing <strong>B.Tech in Computer Science & Engineering with specialization in Artificial Intelligence and Machine Learning (in collaboration with IBM)</strong> at <strong>JECRC University</strong>.
+            </p>
+            <p class="about-text">
+              I am building strong fundamentals in programming logic and computer architecture, currently focusing on <strong>C Programming</strong>, <strong>Computer Fundamentals</strong>, and version control using <strong>Git & GitHub</strong>.
+            </p>
+          </div>
+
+          <!-- Hobbies Section (Playing Games, Interested About Computers) -->
+          <div class="about-hobbies-col">
+            <h4 class="hobbies-title"><i class="fa-solid fa-heart text-orange"></i> Personal Interests & Hobbies</h4>
+            
+            <div class="hobby-tile">
+              <div class="hobby-icon-box">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <div class="hobby-desc">
+                <h5>Playing Games</h5>
+                <p>Engaging in tactical, strategy, and multiplayer games that encourage quick problem analysis, hand-eye coordination, and strategic reflexes.</p>
+              </div>
+            </div>
+
+            <div class="hobby-tile">
+              <div class="hobby-icon-box">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="hobby-desc">
+                <h5>Exploring Computers & Technology</h5>
+                <p>Passionate about understanding how computers function, software tools, computer architecture, and hardware components.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section (Exact Real Scores: 10th 87.33%, 12th 74%, First Year JECRC) -->
+      <section class="content-section" id="education">
+        <div class="section-title-wrap">
+          <span class="section-tag">Education</span>
+          <h2 class="section-heading">Academic <span class="text-orange">Qualifications</span></h2>
+        </div>
+
+        <div class="education-grid">
+          <!-- 1. B.Tech 1st Year -->
+          <div class="edu-card active-card">
+            <div class="edu-badge current">Current &bull; 1st Year</div>
+            <div class="edu-score-callout">B.Tech (2025–2029)</div>
+            <h3 class="edu-title">B.Tech Computer Science & Engineering (AI & ML)</h3>
+            <p class="edu-inst"><i class="fa-solid fa-university text-orange"></i> JECRC University (IBM Collaboration)</p>
+            <p class="edu-notes">
+              Focusing on core engineering subjects, procedural programming with C, and computer system fundamentals in collaboration with IBM curricula.
+            </p>
+          </div>
+
+          <!-- 2. 12th Standard -->
+          <div class="edu-card">
+            <div class="edu-badge">Completed</div>
+            <div class="edu-score-callout text-orange">74.00%</div>
+            <h3 class="edu-title">12th Grade (Senior Secondary)</h3>
+            <p class="edu-inst"><i class="fa-solid fa-school text-orange"></i> Higher Secondary Education</p>
+            <p class="edu-notes">
+              Completed senior secondary education with focus on science and mathematics, building logical thinking and quantitative aptitude.
+            </p>
+          </div>
+
+          <!-- 3. 10th Standard -->
+          <div class="edu-card">
+            <div class="edu-badge">Completed</div>
+            <div class="edu-score-callout text-orange">87.33%</div>
+            <h3 class="edu-title">10th Grade (Secondary Examination)</h3>
+            <p class="edu-inst"><i class="fa-solid fa-award text-orange"></i> Secondary School Education</p>
+            <p class="edu-notes">
+              Achieved 87.33% with distinction across core science and mathematics subjects, laying the academic foundation for computer science.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section (Strictly User-Requested: C, Computer Fundamentals, Git & GitHub, Soft Skills) -->
+      <section class="content-section" id="skills">
+        <div class="section-title-wrap">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Technical & <span class="text-orange">Soft Skills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Technical Skills Card -->
+          <div class="skills-card">
+            <h3 class="skills-card-header">
+              <i class="fa-solid fa-code text-orange"></i> Technical Skills
+            </h3>
+            <p class="skills-card-sub">Active foundational focus in 1st year engineering:</p>
+
+            <div class="skill-row">
+              <div class="skill-meta">
+                <span class="skill-name"><i class="fa-solid fa-terminal text-orange"></i> C Programming</span>
+                <span class="skill-tag">Core Focus</span>
+              </div>
+              <p class="skill-subdetail">Syntax, variables, loops, control structures, functions, arrays, and basic pointers.</p>
+            </div>
+
+            <div class="skill-row">
+              <div class="skill-meta">
+                <span class="skill-name"><i class="fa-solid fa-microchip text-orange"></i> Computer Fundamentals</span>
+                <span class="skill-tag">Foundation</span>
+              </div>
+              <p class="skill-subdetail">Computer architecture basics, number systems, CPU/memory hierarchy, and OS fundamentals.</p>
+            </div>
+
+            <div class="skill-row">
+              <div class="skill-meta">
+                <span class="skill-name"><i class="fa-brands fa-git-alt text-orange"></i> Basic Git & GitHub</span>
+                <span class="skill-tag">Version Control</span>
+              </div>
+              <p class="skill-subdetail">Repositories, basic commands (git init, commit, push, pull), and GitHub hosting.</p>
+            </div>
+          </div>
+
+          <!-- Soft Skills Card -->
+          <div class="skills-card">
+            <h3 class="skills-card-header">
+              <i class="fa-solid fa-users text-orange"></i> Soft Skills & Professional Attributes
+            </h3>
+            <p class="skills-card-sub">Key qualities and work habits:</p>
+
+            <div class="soft-skills-container">
+              <div class="soft-pill">
+                <i class="fa-solid fa-bolt text-orange"></i>
+                <div>
+                  <strong>Good Learner</strong>
+                  <p>Curious, proactive, and quick to grasp new concepts in coursework.</p>
+                </div>
+              </div>
+
+              <div class="soft-pill">
+                <i class="fa-solid fa-people-group text-orange"></i>
+                <div>
+                  <strong>Good Team Worker</strong>
+                  <p>Enjoys collaborating with lab partners and working effectively in group tasks.</p>
+                </div>
+              </div>
+
+              <div class="soft-pill">
+                <i class="fa-solid fa-clock text-orange"></i>
+                <div>
+                  <strong>Time Management</strong>
+                  <p>Disciplined in balancing college lectures, practical lab sessions, and study hours.</p>
+                </div>
+              </div>
+
+              <div class="soft-pill">
+                <i class="fa-solid fa-chalkboard-user text-orange"></i>
+                <div>
+                  <strong>Presentation Skills</strong>
+                  <p>Confident in articulating thoughts and presenting academic topics clearly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section (Anyone can send a message) -->
+      <section class="content-section" id="contact">
+        <div class="section-title-wrap">
+          <span class="section-tag">Contact</span>
+          <h2 class="section-heading">Get in <span class="text-orange">Touch</span></h2>
+        </div>
+
+        <div class="contact-box-grid">
+          <!-- Left Info Cards -->
+          <div class="contact-details">
+            <div class="contact-item-card">
+              <div class="contact-icon-circle">
+                <i class="fa-solid fa-user text-orange"></i>
+              </div>
+              <div>
+                <span class="contact-label">Name</span>
+                <p class="contact-val">Bhavesh Yadav</p>
+              </div>
+            </div>
+
+            <div class="contact-item-card">
+              <div class="contact-icon-circle">
+                <i class="fa-solid fa-graduation-cap text-orange"></i>
+              </div>
+              <div>
+                <span class="contact-label">University</span>
+                <p class="contact-val">JECRC University</p>
+                <p class="contact-subval">B.Tech CSE (AI & ML - IBM), 1st Year</p>
+              </div>
+            </div>
+
+            <div class="contact-item-card">
+              <div class="contact-icon-circle">
+                <i class="fa-solid fa-envelope text-orange"></i>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:bhavesh.yadav@example.com" class="contact-val contact-link">bhavesh.yadav@example.com</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Interactive Message Form -->
+          <div class="contact-form-card">
+            <form id="contact-form" class="message-form" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+                <span class="form-error" id="name-error">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                <span class="form-error" id="email-error">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="e.g. Message for Bhavesh" required />
+                <span class="form-error" id="subject-error">Please enter a subject</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                <span class="form-error" id="message-error">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn btn-orange btn-full" id="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-spinner hidden"><i class="fa-solid fa-circle-notch fa-spin"></i> Sending...</span>
+              </button>
+            </form>
+
+            <div class="feedback-banner hidden" id="feedback-card">
+              <i class="fa-solid fa-circle-check text-orange feedback-icon"></i>
+              <h4>Message Received!</h4>
+              <p id="feedback-detail">Thank you! Your message has been sent successfully to Bhavesh Yadav.</p>
+              <button class="btn btn-outline btn-sm" id="reset-form-btn">Send Another Message</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="#home" class="logo">
+          <span class="logo-orange">BHAVESH</span><span class="logo-dot">.</span>
+        </a>
+        <p class="footer-copy">&copy; <span id="current-year"></span> Bhavesh Yadav &bull; JECRC University B.Tech CSE (AI & ML - IBM)</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
